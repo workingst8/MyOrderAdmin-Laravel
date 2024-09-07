@@ -34,8 +34,8 @@
                 <input type="file" id="image" name="image" class="form-control">
             </div>
             <div class="d-flex justify-content-between mt-2">
-                <button class="btn btn-success" type="submit">등록</button>
-                <a href="{{ route('item.all') }}" class="btn btn-secondary">상품 목록</a>
+                <button type="submit" class="btn btn-primary">등록</button>
+                <a href="{{ route('item.all') }}" class="btn btn-secondary">뒤로</a>
             </div>
         </form>
     </div>
