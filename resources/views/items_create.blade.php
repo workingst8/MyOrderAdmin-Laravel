@@ -28,7 +28,7 @@
                 <input type="text" id="product" name="product" class="form-control" placeholder="품명을 입력해 주세요.">
             </div>
             <div class="mb-3">
-                <input type="text" id="price" name="price" class="form-control" placeholder="금액을 입력해 주세요.">
+                <input type="text" id="price" name="price" class="form-control" placeholder="금액을 입력해 주세요.(숫자만 입력)">
             </div>
             <div class="mb-3">
                 <input type="file" id="image" name="image" class="form-control">
