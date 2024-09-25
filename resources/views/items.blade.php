@@ -32,7 +32,9 @@
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h2 class="me-auto">상품 목록</h2>
             <a href="{{ route('item.create') }}" class="btn btn-secondary me-2">상품 등록</a>
+            @if(Auth::guard('admin')->user()->login_id === 'admin')
             <a href="{{ route('pw-form') }}" class="btn btn-secondary me-2">비밀번호 변경</a>
+            @endif
             <a href="{{ route('logout') }}" class="btn btn-danger">로그아웃</a>
         </div>
 
